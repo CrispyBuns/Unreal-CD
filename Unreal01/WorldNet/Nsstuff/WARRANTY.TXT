@@ -1,0 +1,179 @@
+ReadMe 0198win4.txt
+
+AT&T WorldNet® Service for Windows® 3.1, Windows® for Work Groups 3.11, 
+			   and Windows® 95                      
+
+
+Contents:
+-- A World of Possibilities
+-- If You Can Point and Click, You're There
+-- Minimum System Requirements
+-- Online Help and Advice
+-- Installation and Registration - Tips and Instructions
+-- Registering with AT&T WorldNet Service 
+-- Connecting to AT&T WorldNet Service
+-- Choose the Plan That's Right for You 
+-- Important, Please Read
+
+
+-- A World of Possibilities --
+
+With AT&T WorldNet Service, a world of infinite possibilities is now within your
+ reach. Research virtually any subject.  Stay abreast of current events.  
+Participate in online newsgroups.  Purchase merchandise from leading retailers. 
+
+AT&T WorldNet Service is rapidly becoming the preferred way of accessing the 
+Internet and has won several of the most highly coveted awards in the computer 
+industry.  It's the best way to stay in touch with the people, ideas, and 
+information that are important to you.
+
+If you are in the United States, Puerto Rico or the U.S. Virgin Islands, 
+all you need is a computer with a mouse, a modem, a phone line, and the 
+enclosed software.  We've taken care of the rest.
+
+
+-- If You Can Point and Click, You're There --
+
+With AT&T WorldNet Service, finding the information you want on the Internet is 
+easier than you ever imagined it could be. Get fast access via over 360 access 
+numbers throughout the U.S. and go online as easily as picking up your phone. 
+
+Specially customized industry-leading browsers enable you to simply point and 
+click to go virtually everywhere on the Internet. Stay in touch with friends, 
+relatives, and colleagues via e-mail, chat and discussion groups. Create your 
+own presence on the Internet with your free 2MB of personal Web page resources. 
+
+AT&T's unsurpassed network enables you to connect to the Internet with 
+confidence. It's all within your reach -- just a point and click away
+
+
+-- Minimum System Requirements --
+
+IBM-Compatible Personal Computer Users:
+· IBM-compatible computer with 486SX or higher processor
+· 8 MB of RAM minimum; 16MB RAM suggested  
+· 15 - 20 MB of available hard disk space for Windows® 3.1 or 
+Windows® for Workgroups 3.11, or 40 - 86 MB for Windows® 95 
+· Graphics system capable of displaying 256 colors
+· 14.4 Kbps modem or faster connected to an outside phone line and not a  
+LAN or ISDN line  (For best results, use 28.8 Kbps or 56 Kpbs modem.)
+· Microsoft Windows® 3.1x, Windows® for Workgroups 3.11, or Windows® 95.
+ 
+
+-- Online Help and Advice --
+ 
+The AT&T WorldNet Service home page at www.worldnet.att.net includes a broad 
+spectrum of comprehensive and useful information.  The HELP icon provides 
+pertinent, time-saving, information-intensive reference tips, and topics such 
+as Help Forums, Account Information, Downloads & Upgrades, Security Tips, 
+Newsgroups, Special Announcements,  and more.
+
+AT&T provides World Class technical expertise and fast reliable responses to 
+your questions.   To reach AT&T WorldNet Customer Support, call 1-800-400-1447. 
+
+
+-- Installation and Registration - Tips and Instructions --
+
+· If you have other Web browsers or online software, please consider 
+uninstalling them according to vendor's instructions.
+· If you are installing AT&T WorldNet Service on a computer with Local Area 
+Networking, please contact your LAN administrator for setup instructions.
+· At the end of installation, you may be asked to restart your computer.
+
+IBM-compatible PC users:
+· Insert the CD-ROM into the CD-ROM drive on your computer.
+· Select File/Run (for Windows 3.1x) or Start/Run (for Windows 95 if setup 
+did not start automatically).
+· Type D:\setup.exe (or change the "D" if your CD-ROM is another drive).
+· Click OK.
+· Follow the onscreen instructions to install and register.
+
+
+-- Registering with AT&T WorldNet Service --
+
+The AT&T WorldNet online registration process includes a series of screens that 
+confirm billing information and prompt you for additional account set-up data. 
+The following is a list of registration tips and comments that will help you 
+during the registration process.
+
+1. Be prepared to supply your name, address, valid credit card number and 
+choose an account information security word, e-mail name and e-mail password, 
+and preferred price plan. 
+Note: If you use all lowercase letters when assigning an e-mail ID and security 
+code, they will be easier to remember.
+2. If you make a mistake and exit or get disconnected during the registration 
+process prematurely, simply click on "Create New Account".  Do not click on 
+"Edit Existing Account".
+3. When choosing your local access telephone number, you will be given several 
+options.  Please choose the one nearest to you, and note that calling a number 
+within your area does not guarantee that the call is free.
+
+
+-- Connecting to AT&T WorldNet Service --
+
+When you have finished installing and registering with AT&T WorldNet Service, 
+you are ready to access the Internet.
+Make sure your modem and phone line are available before attempting to connect 
+to the service.
+
+For Windows 95 users:
+· Double-click on the Connect to AT&T WorldNet Service icon on your desktop,
+ OR
+· Select Start, Programs, AT&T WorldNet Software, Connect to AT&T WorldNet 
+Service
+
+For Windows 3.1x users:
+· Double-click the Connect to AT&T WorldNet Service icon located in the 
+AT&T WorldNet Service group in Program Manager.
+
+
+-- Choose the Plan That's Right for You --
+
+Choose one of two payment options: inclusion on your AT&T residential Long 
+Distance telephone bill or bill to your valid MasterCard®, VISA®, Discover® or 
+American Express® credit card. 
+
+AT&T WorldNet Service is competitively priced for exceptional value. 
+The latest pricing information can be obtained during online registration. 
+To change your pricing plan after registering, click on the Service Support 
+icon on the AT&T WorldNet Service home page. There you will find complete 
+instructions for changing your selection.
+
+    Explore our AT&T WorldNet Service Web site at http://www.att.net.
+
+©1998 AT&T Corp.  All Rights Reserved.  AT&T WorldNet is a registered service 
+mark of AT&T Corp., Microsoft and Windows are registered trademarks of Microsoft
+ Corp.
+
+
+
+-- Important, Please Read --
+
+Information in this software is current as of 11/15/97 and subject to change. 
+Your use of AT&T WorldNet Service software is subject to the end-user license 
+agreement included in the software. Your use of AT&T WorldNet Service is subject
+ to the AT&T WorldNet Service Agreement, which is available for review during 
+the registration process and on the AT&T WorldNet Service Web site, as that 
+agreement may be modified by AT&T from time to time.
+
+Before you install this software, please read the terms and conditions listed 
+below, including limitations of liability associated with the use of 
+AT&T WorldNet Service software and AT&T WorldNet Service.
+
+AT&T DOES NOT MAKE ANY EXPRESSED OR IMPLIED WARRANTIES, REPRESENTATIONS, OR 
+ENDORSEMENTS WHATSOEVER (INCLUDING WITHOUT LIMITATION WARRANTIES OF TITLE OR 
+NONINFRINGEMENT OF THE IMPLIED TITLE OF MERCHANTIBILITY OR FITNESS FOR A 
+PARTICULAR PURPOSE) WITH REGARD TO THE SOFTWARE, AND AT&T SHALL NOT BE
+LIABLE FOR ANY COST OR DAMAGE ARISING EITHER DIRECTLY OR INDIRECTLY FROM THE 
+INSTALLATION AND USE OF THE SOFTWARE. AT&T DOES NOT WARRANT THE SOFTWARE WILL 
+BE ERROR-FREE OR THAT DEFECTS IN THE SOFTWARE WILL BE CORRECTED. THE SOFTWARE 
+IS PROVIDED ON AN "AS IS" BASIS. IN NO EVENT WILL AT&T BE LIABLE FOR ANY 
+INCIDENTAL, CONSEQUENTIAL, OR INDIRECT DAMAGES (INCLUDING, BUT NOT LIMITED TO, 
+DAMAGES FOR LOSS OF PROFIT, BUSINESS INTERRUPTION, LOSS OF PROGRAMS OR 
+INFORMATION, AND THE LIKE) ARISING OUT OF THE USE OF OR INABILITY TO USE THE 
+SOFTWARE OR THE MEDIA ON WHICH THE SOFTWARE IS RECORDED, EVEN IF AT&T OR ITS 
+AUTHORIZED REPRESENTATIVES HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+ BECAUSE SOME STATES DO NOT ALLOW THE EXCLUSION OF LIMITATION OF LIABILITY FOR 
+CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO YOU. 
+IN SUCH STATES, AT&T'S LIABILITY IS LIMITED TO THE GREATEST EXTENT PERMITTED BY 
+LAW.

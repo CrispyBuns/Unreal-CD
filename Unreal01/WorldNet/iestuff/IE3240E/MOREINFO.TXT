@@ -1,0 +1,5 @@
+This file is located in win95\en\packages and is called moreinfo.txt.
+
+You should put any extra information for your users in this file.
+
+It is also suggested to add the Internet Explorer 4.0 readme file content here.
