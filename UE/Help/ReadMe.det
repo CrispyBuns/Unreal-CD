@@ -1,0 +1,1172 @@
+======================================================================
+                          Hinweise zu Unreal
+======================================================================
+
+Unreal
+Entwickelt von: Epic MegaGames & Digital Extremes
+Herausgegeben von: GT Interactive
+
+---------------
+Starten von Unreal
+---------------
+
+So startest Du Unreal:
+1. Klicke auf die Schaltfläche "Start" am unteren Bildschirmrand.
+2. Bewege den Mauszeiger auf die Option "Programme".
+3. Bewege den Mauszeiger auf die Option "Unreal".
+3. Klicke auf das Symbol "Play Unreal" (Unreal spielen).
+
+--------------------------------------
+Aktuelle Informationen und Updates 
+--------------------------------------
+
+Besuche die Homepage von Unreal im Internet:
+http://www.unrealworld.de
+http://www.gtinteractive.de
+
+
+-----------------
+Technische Unterstützung 
+-----------------
+
+Hinweise, wie Du technische Unterstützung erhältst, findest Du im Handbuch,
+das der Verkaufsversion des Spiels beigelegt ist.
+
+======================================================================
+                          Fehlerbehebung
+======================================================================
+
+-------
+Absturz
+-------
+
+Falls Unreal abstürzt oder nicht mehr reagiert, wenn Du es zum
+ersten Mal startest, versuche, Unreal über das Symbol "Unreal Safe Mode"
+(Sicherer Modus) im Start-Menü zu starten (Start/Programme/Unreal/
+Unreal Safe Mode). Dieser Modus ähnelt dem sicheren Modus von
+Windows 95. Unreal wird ausgeführt, aber der Sound, DirectDraw
+und die 3D-Hardwareunterstützung sind ausgeschaltet. Du kannst dann
+die Optionen im Menü "Advanced Options" (Erweiterte Optionen) von
+Unreal, die das Problem verursachen, verändern und Unreal danach neu starten.
+
+-------
+Zu wenig Speicherplatz
+-------
+
+Wenn Unreal mit der Meldung "Unreal has run out of virtual memory"
+(Nicht genügend virtueller Speicher vorhanden) stoppt, mußt Du auf Deinem
+Hauptlaufwerk (meistens C:) mehr Festplattenspeicher bereitstellen, damit
+Du Unreal spielen kannst. Die umfangreichen Level und die aufwendigen
+Texturen von Unreal verbrauchen viel virtuellen Speicherplatz. Auf der Festplatte
+sollten zum Ausführen des Spiels 150 MB und für den Editor
+mindestens 300 MB frei sein.
+
+------------
+Grafikprobleme
+------------
+
+Einige ältere DirectDraw-Treiber unterstützen keine niedrige Auflösung mit
+16- oder 32-Bit-Farbe (z. B. 320x240, 400x300 und 512x384). Wenn Du zum
+Spielen von Unreal Software-Rendering verwendest, ist dies ungünstig, da die
+Einstellungen mit höherer Auflösung wie 640x400 und 640x480 sehr viel
+langsamer laufen als die Einstellungen mit niedriger Auflösung. Wenn alle
+Vollbild-Optionen, die in Unreal erscheinen, mit hoher Auflösung arbeiten,
+solltest Du versuchen, einen neueren DirectDraw-Treiber für Deine Grafikkarte
+zu bekommen.
+
+Einige Grafiktreiber unterstützen DirectDraw Vollbild mit 16- oder 32-Bit-Farbe
+bei keiner Auflösung richtig. Wenn Du Unreal nicht mit Vollbild spielen kannst,
+solltest Du Dir einen neueren Treiber vom Hersteller Deiner Grafikkarte besorgen.
+Falls Du keinen besseren DirectDraw-Treiber findest, kannst Du Unreal auch
+in einem Fenster spielen, aber die Leistung und das Feeling sind nicht so packend,
+als wenn Du mit Vollbild spielst.
+
+Auf fast allen Computern läuft Unreal am besten im 32-Bit-Farbmodus (anstelle
+von 16-Bit-Farbe). Du kannst 32-Bit-Farbe im Hauptfenster von Unreal auswählen oder Deine Anzeigeauflösung auf 
+32-Bit-Farbe einstellen; Unreal
+läuft dann automatisch mit 32-Bit-Farbe.
+
+Um eine konstante Frame-Rate auch bei einer großen Zahl von durchscheinenden
+Oberflächen und/oder Explosionseffekten bei Software-Rendering beizubehalten,
+solltest Du im Menü "Advanced Options/Display" (Erweiterte Optionen/Anzeige)
+"SlowVideoBuffering" (Langsamer Grafikpuffer) auf "True" (Ja) setzen.
+
+
+Bekannte Anzeigeprobleme:
+
+* Bei vielen auf 3Dfx Voodoo Rush basierenden
+  3D-Beschleunigern funktioniert Unreal nicht, da es Treiberkonflikte gibt,
+  die wir nicht beheben konnten.
+
+* Wenn Du 3Dfx unter Windows NT verwendest und mehr als einmal
+  pro Ausführen des Spiels vom Software-Renderer zu 3Dfx wechselst,
+  erhältst Du möglicherweise eine Fehlermeldung.
+
+------------
+Soundprobleme
+------------
+
+Der Qualität für die Soundwiedergabe ist auf 22 kHz voreingestellt, den optimalen Wert
+für Computer mit Pentium MMX. Wenn Du einen älteren Computer ohne MMX
+hast, kannst Du eine bessere Leistung erreichen, wenn Du im Menü "Advanced
+Options" (Erweiterte Optionen) den Wiedergabetakt auf 11 kHz setzt; dann ist allerdings
+auch die Soundqualität schlechter. Wenn Du einen schnellen, neuen Pentium II besitzt,
+kannst Du auch 44 kHz für die ultimative Soundqualität einstellen.
+
+Wenn Du eine Soundbeschleunigerkarte vom Typ Aureal A3D 3D wie z. B.
+Diamond Monster Sound 3D verwendest, mußt Du "Advanced Options/Audio"
+(Erweiterte Optionen/Audio) aufrufen und "Use3dHardware" (3D-Hardware
+verwenden) einstellen, um die Unterstützung der 3D-Soundkarte zu aktivieren.
+Um den richtigen 3D-Sound zu erhalten, brauchst Du die neueste Version der
+A3D-Treiber von Aureal. Wenn Du Unreal mit früheren Versionen
+dieser Treiber verwendest, kommt es zu bedeutenden Leistungsproblemen
+(starke Verlangsamung um 30-50% während der Soundwiedergabe).
+
+Wenn Dein Computer an einen Dolby SurroundSound Receiver angeschlossen ist,
+solltest Du unter "Advanced Options" (Erweiterte Optionen) "UseSurround"
+(Surround verwenden) einstellen, um den wahnsinnigen 360-Grad Dolby-Sound
+voll ausnutzen zu können.
+
+Bekannte Sound-Probleme:
+
+* Bei einigen wenigen der Computer-Konfigurationen, die wir getestet haben,
+  kam es hin und wieder zum Absturz, wenn im DirectDraw-Vollbildmodus (bei
+  Software-Rendering) gespielt wurde und dabei DirectSound für die Audio-Ausgabe
+  eingestellt war. Bei den meisten dieser Computer ließen sich die Abstürze durch
+  Ausschalten von "UseDirectSound" (DirectSound verwenden) unter "Advanced
+  Options/Audio" (Erweiterte Optionen/Audio) verhindern. Auch durch Spielen in
+  einem Fenster konnten die Abstürze verhindert werden.
+
+* Aufgrund der besonderen Funktionsweise des Betriebssystems kommt es
+  auf vielen Computern mit Windows NT bei den Soundeffekten zu merklichen
+  Verzögerungen, die in manchen Fällen bis zu 1/4 Sekunde betragen können.
+
+* Wenn Du eine Aureal A3D Soundkarte hast und Unreal 3D-Sound aktiviert ist,
+  mußt Du "A3D Splash Screen" im Konfigurationsprogramm von Aureal
+  deaktivieren. Wenn diese Option nicht deaktiviert ist, kann Unreal möglicherweise
+  nicht in den Vollbildmodus schalten, weil es zum Konflikt mit SplashScreen kommt.
+
+-------------------
+Spielen im Netzwerk
+-------------------
+
+Die Mindestgeschwindigkeit für eine akzeptable Internet-Spielleistung
+ist eine 28,8-K-Modemverbindung zu Deinem Internetanbieter.
+
+Wenn Du die Verbindung zu einem Unreal-Server verlierst, kommst Du in
+einen kleinen Halte-Level (der aussieht wie ein Gefängniszelle). Von dort
+aus kannst Du mit Hilfe der Menüs die Verbindung wiederherstellen oder
+eine Verbindung zu einem anderen Server aufbauen.
+
+
+Bekannte Probleme beim Spielen im Netzwerk:
+
+* Wenn ein Spieler sich in ein Netzwerkspiel einklinkt, kann es auf den
+  Client-Computern zu einer Pause von 1/4 Sekunde kommen,
+  während die Erscheinung, der Kampfstil und die übrigen Einstellungen
+  für diesen Spieler geladen werden. Dies gehört zur normalen Funktion
+  des Spiels.
+
+* Die Leistung von Unreal über das Internet hängt stark von der
+  Bandbreite Deiner Verbindung, der Verzögerung (Ping-Zeit)
+  und dem Paketverlust ab. Das Spiel ist darauf ausgelegt, mit
+  Ping-Zeiten von bis zu 300 msec, 5% Paketverlust und
+  Übertragungsgeschwindigkeiten von 28,8 K spielbar zu sein.
+  Die Leistung verschlechtert sich dramatisch bei größerer
+  Verzögerung, höherem Paketverlust und geringerer Bandbreite
+  der Verbindung.
+
+* Wenn in einem Deathmatch-Spiel mit einem "Frag Limit" (Sieg-Limit)
+  oder "Time Limit" (Zeit-Limit) die Level umgeschaltet werden, oder am
+  Ende eines Levels in einem Co-op-Spiel, werden die Spieler
+  für 5-10 Sekunden in den Halte-Level versetzt (ein kleiner Level, der wie
+  eine Gefängniszelle aussieht), während der Server die Level umschaltet und
+  die Clients über den Level-Wechsel informiert.
+
+* Das Speichern von Spielständen bei Co-op-Spielen wird nicht unterstützt.
+  Statt dessen kann der Spieler, der das Co-op-Spiel startet, den Anfangs-Level
+  bestimmen.
+
+--------------
+Steuerung
+--------------
+
+Bekannte Steuerungsprobleme:
+
+* Manche PC-Tastaturen können bestimmte Kombinationen von
+  3 oder mehr gleichzeitig gedrückten Tasten nicht erkennen.
+
+======================================================================
+                          Advanced Options (Erweiterte Optionen)
+======================================================================
+
+Rufe in Unreal das Menü "Options" (Optionen) auf, und wähle dort
+"Advanced Options" (Erweiterte Optionen), um das Menü mit diesen
+Optionen zu öffnen. Folgende Optionen kannst Du dort nach Deinen
+Wünschen einstellen:
+
+-----
+Audio (Sound)
+-----
+
+AmbientFactor (Ambiente-Faktor): Skaliert Hintergrund-Soundeffekte in 
+Relation zu den regulären Soundeffekten. Kann 0,0 - 1,0 betragen; die
+Standardeinstellung ist 0,6.
+
+EffectsChannels (Effektkanäle): Anzahl der gleichzeitig abgespielten
+Soundeffekte. Die Standardeinstellung ist 16. Verwende eine niedrigere
+Anzahl, wenn Du die Leistung verbessern willst; allerdings wird der
+Sound dadurch weniger detailliert.
+
+LowSoundQuality (Niedrige Soundqualität): Verbessert die Leistung
+und reduziert den Speicherbedarf, indem die Versionen der Sounds mit
+geringerer Qualität verwendet werden.
+
+OutputRate (Ausgaberate): Qualität für die Soundwiedergabe.
+Je höher die Zahl, desto besser die Soundqualität und desto langsamer die Leistung.
+11025 Hz bedeutet mittlere Qualität, 44100 Hz entspricht CD-Qualität.
+
+Use3dHardware (3D-Hardware verwenden): Aktiviert die Unterstützung für
+Aureal A3D Soundkarten.
+
+UseDirectSound (DirectSound verwenden): Aktiviert die Unterstützung für
+DirectSound.
+
+UseReverb (Hall verwenden): Schaltet Echos und Hall ein bzw. aus.
+
+UseSurround (Surround verwenden): Aktiviert die Unterstützung für
+Dolby SurroundSound(tm). Dazu muß Dein Computer an einen Dolby
+SurroundSound(tm) Receiver angeschlossen sein. Funktioniert mit allen
+Soundkarten.
+
+-------
+Display (Anzeige)
+-------
+
+CaptureMouse (Maus verbergen): Wenn diese Option aktiviert ist,
+verbirgt Unreal den Mauszeiger, wenn Du in einem Fenster spielst.
+
+CurvedSurfaces (Gewölbte Oberflächen): Glättet die Erscheinung der Monster.
+
+LowDetailTextures (Texturen mit wenig Details): Verbessert die
+Leistung und reduziert den Speicherbedarf, indem Texturen mit
+weniger Details verwendet werden. Dies ist vor allem bei Computern
+mit wenig Speicher nützlich.
+
+NoLighting (Kein Licht): Schaltet das gesamte Licht innerhalb
+des Spiels aus. Das sieht schrecklich aus, verbessert aber die
+Leistung auf schwachen Computern.
+
+StartupFullscreen (Starten mit Vollbild): Legt fest, ob das Spiel in einem
+Fenster oder mit Vollbild gestartet wird.
+
+UseDirectDraw (DirectDraw verwenden): Aktiviert die Unterstützung für
+DirectDraw Vollbild-Rendering.
+
+UseJoystick (Joystick verwenden): Aktiviert die Unterstützung für
+den Joystick.
+
+-------
+Drivers (Treiber)
+-------
+
+GameRenderDevice (Rendering-Geräte): Legt den Treiber für 3D-Rendering
+während des Spiels fest.
+Wenn Du neue 3D-Hardware installierst, ändere diese Einstellung unter
+"Advanced Options" (Erweiterte Optionen) entsprechend.
+
+----------
+Game Types (Spieltypen)
+----------
+
+Für jeden von Unreal unterstützten Hauptspieltyp (Deathmatch,
+Co-op usw.) kannst Du diese Optionen einstellen, die sich auf
+den Spielverlauf auswirken. Dies ist besonders nützlich für
+Administratoren von Unreal-Servern im Internet.
+
+--------
+Joystick
+--------
+
+InvertVertical (Senkrechte umkehren): Kehrt die senkrechte Bewegung
+des Joysticks um; für Leute, die lieber wie bei einem Flugsimulator
+steuern.
+
+ScaleRUV (RUV skalieren): Skaliert die Empfindlichkeit des Trackballs
+oder der erweiterten Joystick-Achsen.
+
+ScaleXYZ (XYZ skalieren): Skaliert die Empfindlichkeit der normalen
+Joystick-Achsen.
+
+--------------------------------
+Netzwerk/ TCP/IP-Netzwerkspiel
+--------------------------------
+
+DefaultByteLimit (Standard-Byte-Limit): Die Standard-
+Übertragungsgeschwindigkeit. Diese solltest Du entsprechend
+Deiner Internet-Verbindung einstellen, um die bestmögliche
+Leistung zu erreichen:
+
+   * Bei 28,8-K-Modemverbindungen: 2600.
+   * Bei 56-K-Modemverbindungen: 3600.
+   * Bei LAN-Verbindungen: 25000.
+
+---------
+Rendering
+---------
+
+Hierunter findest Du Rendering-Optionen für jeden auf dem System
+installierten 3D-Rendering-Treiber.
+
+Coronas (Lichthöfe): Aktiviert die Darstellung von durchscheinenden
+Lichthöfen um Lichtquellen.
+
+DetailTextures (Detailtexturen): Aktiviert die Darstellung
+hochauflösender Texturen, die komplexen Oberflächen mehr
+Details verleihen, wenn sie aus der Nähe zu sehen sind.
+
+HighDetailActors (Detaillierte Aktoren): Aktiviert die Darstellung
+von Objekten mit vielen Details. Auf einem schnellen Computer
+solltest Du die Option einschalten, auf einem langsamen Computer nicht.
+
+ShinySurfaces (Glänzende Oberflächen): Aktiviert die Darstellung
+glänzender (reflektierender) Oberflächen.
+
+VolumetricLighting (Volumetrisches Licht): Aktiviert
+raumfüllendes, volumetrisches Licht und Nebel. Nur
+erkennbar auf einigen 3D-Hardware-Treibern sowie bei
+Software-Rendering auf MMX-PCs.
+
+======================================================================
+                          Tips zur Leistung
+======================================================================
+
+Bei der Entwicklung von Unreal haben wir es uns zum Ziel gesetzt, ein
+Spiel der nächsten Generation zu schaffen, das eine neue Realitätsebene
+für 3D-Spiele eröffnet. Das ist die gute Nachricht.
+Dies bedeutet aber auch, daß Unreal auf älteren oder nicht so leistungsfähigen
+PCs langsamer läuft als bisherige 3D-Spiele. Das ist die schlechte Nachricht Die
+umfangreichen, aufwendigen Darstellungen, die offenen, realistischen
+und detaillierten Umgebungen sowie die aufwendigen Filmsequenzen des Spiels
+bringen leider unvermeidlich diesen Nachteil mit sich.
+
+Nachfolgend findest Du einige Tips, wie Du auf Computern, auf denen
+das Spiel langsam läuft, die Leistung von Unreal verbessern kannst.
+
+-------------------
+Einstellungen mit wenigen Details
+-------------------
+
+Das Menü "Advanced Options" (Erweiterte Optionen) enthält
+viele Einstellungen, mit denen Du Details gegen bessere Leistung
+tauschen kannst. Dir stehen die folgenden Optionen zur Verfügung:
+
+Display / Low Detail Textures (Anzeige/Texturen mit weniger Detail):
+Tauscht Texturdetail (Auflösung) gegen Speicher. Wenn diese Option
+aktiviert ist, reduziert sich der Speicherbedarf im Schnitt um 5 MB.
+Dies empfiehlt sich für langsame PCs oder PCs mit wenig Speicher.
+
+Audio / Low Sound Quality (Sound/Niedrige Soundqualität):
+Tauscht Soundqualität gegen Speicher. Wenn diese Option
+aktiviert ist, wird der Sound auf 8 Bit reduziert, wodurch der
+Speicherbedarf erheblich verringert wird.
+
+Audio / OutputRate (Sound/Ausgaberate):
+Tauscht Soundqualität gegen Spielgeschwindigkeit.
+
+  11025 Hz: Mittlere Sound-Mixingqualität; die beste Wahl für Computer ohne MMX.
+  22050 Hz: Hohe Sound-Mixingqualität; Standardeinstellung.
+  44100 Hz: Ultragute Soundqualität.
+
+Audio / EffectsChannels (Sound/Effektkanäle): Tauscht
+realistischen Sound gegen Spielgeschwindigkeit. Die
+Standardeinstellung sind 16 Kanäle für einen wirklichkeitsnahen
+Sound. Auf langsameren Computern solltest Du 8 oder 12
+Kanäle wählen.
+
+------
+Speicher
+------
+
+Die Leistung von Unreal hängt stark davon ab, wieviel RAM in
+Deinem Computer installiert und wieviel Speicher verfügbar ist.
+Computer mit weniger Speicher greifen öfter auf die Festplatte zu, um
+Daten zu laden, was hin und wieder zu Pausen im Spielablauf führt.
+Wenn Du also einen Computer mit 32 MB (oder weniger) Speicher
+hast, sollest Du darauf achten, daß Du keine anderen, nicht benötigten
+Programme geladen hast, während Du Unreal spielst.
+
+Leistung von Unreal bei verschiedenen RAM-Größen:
+* Weniger als 16 MB: Nicht spielbar.
+* 16 MB: Spielbar, aber es wird oft auf die Festplatte zugegriffen.
+  Wir raten dringend dazu, "Low Detail Textures" (Texturen mit wenig Detail)
+  und "Low Quality Sound" (Niedrige Soundqualität) einzustellen, um den
+  Speicherbedarf zu reduzieren.
+* 32 MB: Es wird gelegentlich auf die Festplatte zugegriffen.
+* 64 MB: Hervorragend, eventuell wird ganz selten mal auf die Festplatte zugegriffen.
+* 128 MB: Absolut phantastisch!
+
+---------
+CPU-Geschwindigkeit
+---------
+
+Wie Unreal läuft, hängt auch sehr von der CPU-Geschwindigkeit,
+der Speicherbandbreite und der Cache-Leistung ab. Deshalb läuft
+es sehr viel besser auf den neuesten Prozessoren wie Pentium II
+als auf älteren wie z. B. Pentium ohne MMX.
+
+Leistung von Unreal auf verschiedenen Computer-Typen:
+
+* P166 ohne MMX: Langsamer Aufbau; große Schwankungen bei
+  der Bildlaufrate. Wir empfehlen, wenn möglich, mit einer Auflösung
+  von 320x200 zu spielen. Außerdem sollte die Soundwiedergabe auf
+  11025 Hz eingestellt sein.
+
+* P200 MMX: Gute Aufbaugeschwindigkeit; begrenzte Schwankungen
+  bei der Bildlaufrate. Wir empfehlen, mit niedrigen Auslösungen wie
+  320x240 oder 400x300 zu spielen und die Soundwiedergabe auf
+  22050 Hz einzustellen.
+
+* Pentium II: Sehr gute Aufbaugeschwindigkeit; konstante Bildlaufrate.
+  Das Software-Rendering läuft problemlos bei einer Auflösung von
+  512x384 mit 32-Bit-Farbe. Die beste Soundqualität erhältst Du
+  wahrscheinlich, wenn Du 44 kHz Audio auswählst.
+
+----------------------
+Aufrüsten?
+----------------------
+
+Wir haben Unreal auf verschiedenen Computern getestet. Aufgrund unserer
+Erfahrungen können wir hier einige Tips für diejenigen geben, die
+überlegen, ob sie ihren Computer aufrüsten sollen:
+
+1. Die bedeutendste Verbesserung der Leistung von Unreal erreicht man,
+   wenn man einen Pentium II-Prozessor verwendet. Verglichen mit älteren Pentium-
+   Prozessoren haben Pentium II eine dramatisch erhöhte Cache-Leistung,
+   Speicherleistung und Gleitkommaleistung. Das alles ergibt einen
+   schnelleren Spielablauf. Diese Leistungsverbesserungen der Pentium II
+   machen sich bei Unreal ganz besonders bemerkbar, da es sehr viel mehr
+   Inhalte (Texturen, Sounds, Animationen, Level-Geometrie) umfaßt als
+   andere 3D-Actionspiele.
+
+2. Die nächste Aufrüstmöglichkeit, die die Leistung von Unreal
+   in der Regel dramatisch verbessert, ist ein 3Dfx Voodoo oder Voodoo2
+   3D-Beschleuniger. Vor allem in Verbindung mit einem Pentium II-
+   Prozessor sorgen diese Beschleuniger wirklich für Action!
+
+3. Schließlich ist viel RAM zu empfehlen. Da die Speicherpreise
+   immer weiter sinken, ist es mittlerweile relativ erschwinglich, auf
+   64 oder 128 MB Speicher aufzurüsten.
+
+------------
+Systemanforderungen
+------------
+
+Mindestanforderungen:
+* 166-MHz-Pentium
+* 16 MB RAM
+* 2 MB Grafikkarte
+
+Typisches System:
+* 233-MHz Pentium MMX oder Pentium II
+* 32 oder 64 MB RAM
+* 3Dfx Voodoo 3D-Beschleuniger
+
+Das Hammer-System:
+* Pentium II 266 oder höher
+* 64 oder 128 MB RAM
+* 3Dfx Voodoo oder Voodoo2 3D-Beschleuniger
+
+======================================================================
+                            Steuerung
+======================================================================
+
+--------
+Tastatur
+--------
+
+Pfeiltaste Oben: Vorwärts
+Pfeiltaste Unten: Rückwärts
+, (Komma): Nach links wenden
+. (Punkt): Nach rechts wenden
+Mausbewegung: Spieler drehen
+STRG-/Linke Maustaste: Primärfeuer
+ALT-/Rechte Maustaste: Feuer wechseln
+Leertaste: Springen
+<Eingabetaste>: Inventar aktivieren
+Umschalttaste: Rennen ein- und ausschalten
+<Pause>: Spiel unterbrechen
+Y: Ausweichen (schaltet die Pfeiltasten auf Ausweichen um)
+Pfeiltaste Links: Links ausweichen
+Pfeiltaste Rechts: Rechts ausweichen
+1,2,3,4,5,6,7,8,9,0: Waffe wechseln
+- (Bindestrich): Zur nächsten verfügbaren Waffe umschalten
+ß, ` (Akzent): Größe des Spielfensters verändern
+Ü, +: Durch Inventar scrollen
+F2: Übersetzer aktivieren/deaktivieren
+F5: Hud ändern
+
+-----------------
+Tasten im Netzwerkspiel
+-----------------
+
+F: Tod vortäuschen
+Ö: Waffe werfen
+F4: Ergebnisliste aufrufen
+T: Nachricht eingeben
+L: Anderen Spielern zuwinken
+J: Andere Spieler verspotten
+K: Siegesspott
+
+-----
+Maus
+-----
+
+Obwohl Du Dich auch nur mit der Tastatur im 3D-Universum bewegen
+und agieren kannst, ist die Steuerung viel flüssiger und effektiver, wenn
+Du gleichzeitig Tastatur und Maus verwendest.
+
+Wenn Du mit der Maus Deine Drehbewegung und Dein Zielen steuerst,
+erreichst Du eine Präzision und Geschwindigkeit, von der Spieler, die
+ausschließlich über Tastatur spielen, nur träumen können. Die Tastatur eignet
+sich am besten für seitliche und Vorwärts- bzw. Rückwärtsbewegungen sowie
+zum Springen.
+
+Um die Standardsteuerung von Unreal perfekt zu beherrschen, läßt Du
+die linke Hand auf der Tastatur und benutzt die Pfeiltasten zum Bewegen,
+die Tasten 0-9 zur Waffenauswahl und die Leertaste zum Springen. Mit der
+rechten Hand bedienst Du die Maus zum Steuern von Drehung, Zielen und
+Feuern. Natürlich kannst Du die Steuerung über das Menü "Options"
+(Optionen) so einstellen, wie sie Dir am besten paßt.
+
+--------
+Joystick
+--------
+
+Die Joystick-Unterstützung von Unreal kannst Du über das Menü
+"Options" aktivieren (standardmäßig ist sie deaktiviert). Du kannst
+einen Standard-Joystick zum Bewegen und Feuern benutzen. Zusätzlich
+bietet Unreal aber auch Unterstützung des Panther XL Joysticks, wodurch
+das Spielen mit zwei Joysticks und mit Trackball ermöglicht wird.
+
+Standard-Joystick-Steuerung:
+   * Bewegen/Drehen: Joystick-Griff
+   * Feuern: Taste 1
+   * Feuer wechseln: Taste 2
+   * Springen: Taste 3 (bei Joysticks mit 4 Tasten)
+   * Ausweichen: Taste 4 (bei Joysticks mit 4 Tasten)
+
+Zusätzlich bei Panther XL Steuerungen:
+   * Feuern/Blick: Trackball
+
+------------------------
+Steuerung verändern
+------------------------
+
+Wenn Dir die Standardsteuerung nicht zusagt, kannst Du die
+Einstellungen ändern, indem Du im Menü "Options" (Optionen)
+"Customize Controls" (Steuerung verändern) auswählst.
+
+======================================================================
+                      Internet- und LAN-Spiel
+======================================================================
+
+Rufe das Menü "Multiplayer" auf, um ein Netzwerkspiel zu starten
+oder einem Netzwerkspiel beizutreten.
+
+Unreal unterstützt Spiele sowohl über LAN als auch Internet mit dem standardmäßigen
+TCP/IP-Protokoll. Wenn Deine Internetverbindung steht, kann es losgehen!
+
+======================================================================
+                    Spezial-Netzwerk-Server
+======================================================================
+
+-----------
+Erläuterung
+-----------
+
+Um optimale Leistung beim Netzwerkspiel zu erreichen,
+kannst Du eine Spezial-Kopie des Unreal-Servers auf einem
+Computer starten. Dadurch verbessert sich die Leistung
+im Vergleich zur Verwendung eines nicht spezialisierten Servers,
+aber natürlich wird dabei auch ein PC blockiert.
+
+---------
+Starten
+---------
+
+Du kannst einen Spezial-Server starten, indem Du in Unreal dem
+normalen Menü "Start Game" (Spielstart) folgst, die entsprechenden
+Optionen einstellst und dann "Launch Dedicated Servers" (Spezial-
+Server starten) auswählst. Dies solltest Du tun, wenn Du schnelle
+LAN-Spiele erleben möchtest und einen Computer zur Verfügung hast,
+der für nichts anderes gebraucht wird und als Server
+fungieren kann.
+
+Du kannst einen Spezial-Server auch von der
+Befehlszeile aus starten, indem Du Unreal.exe direkt ausführst
+(diese Datei befindet sich normalerweise im Verzeichnis
+C:\Unreal\System, oder im Unterverzeichnis " System" in dem
+Verzeichnis, in dem Du das Spiel installierst hast). Wenn Du
+beispielsweise den Level "DmFith.unr" starten willst, führe
+folgendes aus:
+
+   Unreal.exe DmFith.unr -server
+
+----------------------------
+Mehrere Server auf einem Computer
+----------------------------
+
+Jede Kopie eines Unreal- Spezial-Servers kann
+jeweils nur einen einzigen Level bedienen.
+
+Du kannst jedoch mehrere Level-Server auf einem
+Computer laufen lassen. Hierfür mußt Du jedem Server
+eine eindeutige TCP/IP-Anschlußnummer zuweisen. Die
+Standard-Anschlußnummer von Unreal lautet 7777. Um
+einen Anschluß anzugeben, mußt Du eine Befehlszeile wie
+die folgende verwenden:
+
+   Unreal.exe DmFith.unr port=7778 -server
+
+Auf manchen Windows NT-Servern ist mehr als eine
+Netzwerkkarte installiert, und sie verfügen deshalb über
+mehr als eine IP-Adresse. Wenn dies der Fall ist, mußt Du
+zur Angabe der IP-Adresse, auf der Unreal laufen soll, den
+Parameter der Form multihome=www.xxx.yyy.zzz verwenden,
+z. B. wie folgt:
+
+   Unreal.exe DmFith.unr multihome=204.157.115.34
+
+------------------------------
+Allgemeine Richtlinien zur Leistung
+------------------------------
+
+Wir haben festgestellt, daß ein 200 MHz Pentium Pro in der Regel bei
+bis zu 16 Spielern eine gute Leistung bietet. Die Leistung
+schwankt je nach Komplexität des Levels und anderen Faktoren, die
+die Computer-Geschwindigkeit beeinflussen, es kann also Unterschiede
+zwischen den Spielern geben. Es gibt bei Unreal keine absolute
+Höchstgrenze für die Spieleranzahl; die Leistung verschlechtert
+sich lediglich, je höher die Zahl der Spieler wird.
+
+Wenn Du mehrere Level gleichzeitig laufen läßt, bringt Windows NT
+eine bessere Leistung als Windows 95, da sein Multitasking und seine
+TCP/IP-Verarbeitung besser sind.
+
+Für die beste Leistung raten wir, für jeden laufenden Level 32 MB
+zur Verfügung zu stellen. Beispielsweise sind für 4 gleichzeitig laufende
+Level 128 MB ideal.
+
+Der Unreal-Server verbraucht pro Spieler mindestens 28,8 KB pro Sekunde von der
+ausgehenden Bandbreite (im Internet). Wenn Du also einen Computer als Server
+eingerichtet hast, der an ein 28,8-K-Modem angeschlossen ist, kannst Du nur einen
+Client mit einer akzeptablen Leistung unterstützen. Spezial-Server, die
+mehrere Spieler unterstützen, benötigen in der Regel mindestens die ausgehende
+Bandbreite einer T1-Leitung.
+
+--------------------
+Verbindung zum Hauptserver
+--------------------
+
+Wenn Du einen öffentlichen Internet-Server betreibst und möchtest,
+daß dieser in der Epic-Liste der öffentlichen Unreal-Server erscheint,
+mußt Du zuerst "Advanced Options" (Erweiterte Optionen), dann "Networking"
+(Netzwerk) und "Master Server Uplink" (Mit Hauptserver verbinden) auswählen und
+dort die Option "DoUplink" (Verbinden) einstellen. Dann stellt Dein Unreal-Server
+alle 30 Sekunden eine Verbindung zum Unreal-Hauptserver von Epic her und
+zeigt dort seine IP-Adresse und Spielerliste an.
+
+Hinweis: Diese Option ist standardmäßig auf OFF (AUS) gesetzt. Wenn Du sie
+aktivierst, werden Deine IP-Adresse, der Server-Name, die Server-Optionen und
+die Spielerlisten für die ganze Welt sichtbar.
+
+======================================================================
+             Der Editor (Kurzeinführung von Cliff Bleszinski)
+======================================================================
+
+----------------------
+Daran mußt Du denken
+----------------------
+
+Scheue Dich nicht, Dinge im Editor auszuprobieren. Im schlimmsten Fall
+kannst Du immer noch alles, was Du kaputt gemacht hast, wieder neu installieren.
+Du kannst also, ganz wie es Dir gefällt, neue Kreaturen hinzufügen, an ihren
+Eigenschaften herumbasteln, Szenerien mit wahnsinnigen Details aufbauen,
+verrückte Lichteffekte entwerfen usw. Wie das geht, lernst Du am besten, indem
+Du einfach mal alles ausprobierst.
+
+Um den Editor zu starten, mußt Du die Datei UNREALED.EXE in Deinem
+Unreal-Systemverzeichnis ausführen.
+
+Der Editor besteht aus drei Hauptfenstern. Am linken Bildschirmrand befindet sich
+die Hauptsymbolleiste mit Schaltflächen für die meisten Funktionen. In der Mitte
+werden alle Deine Kamerasichten angezeigt, unter anderem Overhead (über Kopf),
+Side (Seite) und First Person (Eigenperspektive). Auf der rechten Seite siehst Du den
+Klassen-/Textur-Browser. Dort suchst Du Texturen, Feinde, Musik und Soundeffekte
+aus. Merke Dir die Ausdrücke "Kamerasichten", "Symbolleiste" und "Browser", da
+von ihnen oft die Rede sein wird.
+
+Laß uns zuerst einmal einige Texturen laden. Auf der rechten Seite des
+Textur-Browsers muß BROWSE- TEXTURES (Texturen durchsuchen)
+in den Drop-Down-Kästchen erscheinen. Wähle jetzt unten LOAD (Laden),
+dann kannst Du UTX-Texturpakete laden. Unreal speichert 8-Bit PCX-Dateien
+in seinen UTX-Paketen. Verändere aber die wichtigsten nicht, sonst funktionieren
+einige Level nicht.
+
+Jetzt haben wir einige Texturen geladen und können uns ansehen,
+wie man sie in UnrealEd bearbeitet.
+
+Unreal basiert auf der sogenannten Constructive Solid Geometry.
+Stell Dir vor, daß die ganze Welt ein schon voll ausgefüllter Raum
+ist und Du Deinen Level daraus herausmeißeln mußt. Du kannst Formen
+sich überlappen und schneiden lassen, und Du kannst Formen in die
+Löcher/Räume setzen, die Du bereits aus der Welt geschnitten hast.
+
+In der dritten Spalte der Symbolleiste, etwa in der Mitte, siehst Du
+einen Würfel, einen Kegel, eine Kugel und einige Treppen. Dies sind
+Deine Grundbausteine. Sie sind unerläßlich, um die Grundformen in
+Deiner Welt aufzubauen. Du kannst auf jede dieser Grundformen mit
+der rechten Maustaste klicken, um ihre Eigenschaften zu bearbeiten.
+Dies ist die einfachste Möglichkeit, ihre Größe zu verändern. Klicke
+auf den Würfel, und es erscheint der rote Umriß eines Würfels in Deinen
+Fenstern. Dies ist Dein Arbeitswerkzeug. In der Welt hast Du immer nur
+ein Arbeitswerkzeug, und dieses wird als roter Umriß angezeigt. Dieses
+Werkzeug ist noch kein eigentlicher Bestandteil der Weltgeometrie, sondern
+entspricht eher einem Stempel, mit dem Du Löcher in Welt schneiden oder
+Dinge zu ihr hinzufügen kannst. Mit jedem Werkzeug kannst Du ausschneiden
+oder hinzufügen.
+
+Hinweis: Standardmäßig ist in Unreal ein Gitter mit 16 Einheiten eingestellt.
+Du kannst diese Einstellung ändern, indem Du mit der rechten Maustaste
+auf die "2D Camera Views" (2D-Kamerasichten) klickst und dann "Grid->x units"
+(Gitter->x Einheiten) auswählst.
+
+Jetzt verfügst Du über einen Würfel, mit dem Du in der Welt arbeiten kannst,
+und kannst anfangen, etwas hinzuzufügen oder wegzunehmen. Wähle zuerst
+eine Textur im Textur-Browser aus. Klicke dann in der Symbolleiste auf die
+zweite Schaltfläche von oben in der rechten Spalte. Mit dieser Schaltfläche, oder
+durch Drücken von STRG-S, kannst Du etwas entfernen. Du solltest jetzt in Deiner
+Eigenperspektive-Kamerasicht einen leeren Raum sehen!
+
+Hinweis: Um Dich in Deinen 2D-Kamerasichten zu bewegen, klicke mit der
+linken Maustaste und ziehe, um die Sicht zu ändern. Halte beide Maustasten
+gedrückt und bewege die Maus, um heran- oder wegzuzoomen. In den 3D-Sichten
+mußt Du mit der linken Maustaste klicken und die Maus bewegen, wenn Du Dich
+vorwärts oder rückwärts bewegen willst. Halte die rechte Taste gedrückt, um Dich
+in der 3D-Sicht umzuschauen. Halte beide Tasten gedrückt und bewege die Maus,
+wenn Du feuern oder Dich nach oben oder unten bewegen willst.
+
+Du kannst Dein Arbeitswerkzeug in den 2D-Sichten bewegen, indem Du die
+STRG-Taste gedrückt hältst und mit der linken Maustaste klickst. Um Dein
+Werkzeug in den 2D-Sichten zu drehen, halte STRG gedrückt, klicke mit der
+rechten Maustaste, und bewege die Maus. Wenn Du Dein Werkzeug schnell
+skalieren willst, klicke auf die vierte Schaltfläche von oben in der linken Spalte
+der Symbolleiste. Du befindest Dich dann im Modus SCALE TO GRID (Auf
+Gitter skalieren). Wenn Du diesen Modus (oder jeden anderen Modus) verlassen
+willst, klicke auf das Auge links oben in der Symbolleiste. Um Dein Werkzeug
+auf das Gitter zu skalieren, gehe in eine der 2D-Sichten, und halte die STRG-Taste
+gedrückt, während Du mit der linken Maustaste klickst und ziehst. Wenn Du die
+Drehung, Position oder Skalierung Deines Werkzeugs zurücksetzen willst, klicke
+mit der rechten Maustaste auf Dein Arbeitswerkzeug, und klicke auf "RESET-
+rotation, scaling, or location" (Zurücksetzen - Drehung, Skalierung oder Position).
+
+----------
+Neuaufbau
+----------
+
+Um Deine neue Geometrie zu sehen, mußt Du einen kurzen
+Neuaufbau durchführen. Dazu kannst Du OPTIONS- REBUILD
+(Optionen-Neuaufbau) auswählen oder in den 2D-Sichten mit der
+rechten Maustaste klicken und REBUILDER (Neuaufbauer) auswählen.
+Dann erscheint ein Fenster, der REBUILDER. Zur Zeit gibt es drei
+Bestandteile, und Du kannst sehen, wie jeder Teil auf den Registern
+im Rebuilder-Fenster aufgebaut wird. Die Teile heißen GEOMETRY
+(Geometrie), BSP (Binary Space Partition) und LIGHTING (Licht).
+Im Moment brauchst Du Dich nicht um BSP zu kümmern. Wenn Du das
+Rebuilder-Fenster zum ersten Mal aufrufst, ist dort für AUTO REBUILD BSP
+die Option ON markiert - schalte diese Option aus. Jetzt kannst Du GEOMETRY
+und LIGHTING getrennt aufbauen, ohne irgend etwas mit BSP tun zu müssen.
+Du kannst mit Deinem Werkzeug soviel hinzufügen oder wegnehmen, wie
+Du willst, aber um Deinen Level genau zu sehen, mußt Du die Geometrie
+neu aufbauen. Das gleiche gilt für das Licht: Du kannst Lichter beliebig
+hinzufügen und entfernen, aber um das tatsächliche Ergebnis im Editor
+sehen zu können, mußt Du Licht neu aufbauen.
+
+Du kannst in der Welt jede beliebige Oberfläche markieren, indem Du
+mit der linken Maustaste darauf klickst. Mehrere Oberflächen gleichzeitig
+kannst Du markieren, wenn Du STRG gedrückt hältst und mit der linken
+Maustaste auf die gewünschten Flächen klickst. Um die Eigenschaften einer
+Oberfläche zu bearbeiten, klicke mit der rechten Maustaste auf die Fläche.
+Wenn Du mehrere Oberflächen bearbeiten willst, markiere sie, während Du
+STRG gedrückt hältst, und halte STRG auch weiter gedrückt, wenn Du mit der
+rechen Maustaste auf eine der markierten Oberflächen klickst. Du kannst die
+Oberflächeneigenschaften bei jeder beliebigen dieser Oberflächen aufrufen und
+dort die Skalierung anpassen, Texturen auf Oberflächen anordnen, die Texturen
+schwenken, kippen, drehen usw.
+
+Experimentiere mit den Grundformen, und schaue, was Du zustande bringst.
+Wenn Du einen oder auch zwei Räume fertig hast, wird es Zeit, das Licht
+hinzuzufügen.
+
+--------
+Licht
+--------
+
+Um in Unreal Licht hinzuzufügen, kannst Du an jeder Stelle mit der
+rechten Maustaste klicken und in dem Menü, das dann erscheint,
+ADD LIGHT HERE (Hier Licht einfügen) auswählen. Du
+kannst auch die L-Taste auf der Tastatur gedrückt halten und an der
+Stelle klicken, an der Du Licht hinzufügen willst. Dort, wo Du
+geklickt hast, erscheint ein Lichtsymbol. Dies zeigt an, wo sich
+Deine Lichtquelle befindet. Du kannst mit der rechten Maustaste
+auf jedes beliebige Licht klicken, um seine Eigenschaften zu
+bearbeiten. Unter "Lighting" (Licht) und "LightColor" (Lichtfarbe)
+kannst Du die Helligkeit, den Radius, die Farbe und Sättigung der
+Lichtquelle ändern. Außerdem gibt es verschiedene Lichteffekte, mit
+denen Du experimentieren kannst, z. B. "Flicker" (Flackern), "Pulse"
+(Pulsieren) und "Disco".
+
+Hinweis: Um die Beleuchtung richtig neu zu berechnen und sehen zu können,
+mußt Du einen kurzen Neuaufbau des Lichts durchführen. Siehe oben, Abschnitt
+"Neuaufbau".
+
+Du brauchst nur mit der linken Maustaste zu klicken, um eine Lichtquelle zu
+markieren, und Du kannst STRG gedrückt halten und dann mit der linken
+Maustaste klicken, wenn Du mehrere Lichter markieren willst. In den 2D-Sichten
+kannst Du STRG gedrückt halten, dann mit der linken Maustaste klicken und
+ziehen, um die Lichtquellen zu verschieben. Um die Markierung von Lichtern
+wieder zu löschen, halte STRG gedrückt und klicke nochmals mit der linken
+Maustaste auf die entsprechenden Lichtquellen. Du kannst beliebige Markierungen
+löschen, indem Du auf die große 0 in der Symbolleiste klickst.
+
+--------------
+Extras hinzufügen
+--------------
+
+Du kannst Monster, Objekte und Dekorationen in der Unreal Engine genauso
+einfach hinzufügen wie die Lichtquellen. Zuerst mußt Du welche auswählen:
+Rufe den Textur-Browser auf, klicke auf BROWSE: TEXTURES (Texturen
+durchsuchen) und wähle in der Drop-Down-Box CLASSES (Klassen) aus. Der
+Browser zeigt jetzt Aktoren an. (Zu den Aktoren zählen Monster, Objekte,
+Schlüsselpunkte im Level und Dekorationen.)
+
+Um ein Monster hinzuzufügen, rufe das Menü PAWN (Figur) und dann das Menü
+SCRIPTED PAWN (Figur mit Skript) auf. Dort sind alle Deine Monster untergebracht.
+Um sie zur Welt hinzuzufügen, markiere einen Monstertyp, klicke mit der rechten
+Maustaste und klicke dann auf ADD (Monster type) HERE ([Monsterart] hier hinzufügen).
+Du kannst auch einfach die Taste A gedrückt halten und an einer beliebigen Stelle mit der
+linken Maustaste klicken, um den ausgewählten Aktor hinzuzufügen.
+
+Um ein Objekt hinzuzufügen, rufe das Menü INVENTORY (Inventar) auf.
+In diesem Bereich befinden sich alle Deine Pickup-Objekte, Gegenstände und Waffen.
+
+Das Hinzufügen von Dekorationen ist genauso einfach. Rufe einfach das Menü
+DECORATIONS (Dekorationen) auf, wähle einen Aktor aus, und füge ihn ein,
+wo immer Du willst.
+
+Du kannst die Eigenschaften jedes beliebigen Monsters, Objekts oder jeder
+Dekoration bearbeiten, indem Du mit der rechten Maustaste darauf klickst
+und das Eigenschaften-Fenster aufrufst.
+
+Um auf Deinem Level zu spielen, mußt Du dem Spiel sagen, wo es den
+Spieler plazieren soll, wenn er in den Level eintritt. Dazu fügst Du einen
+Aktor PLAYERSTART (Spielerstart) in die Welt ein, den Du unter
+NAVIGATION POINT-> Playerstart (Navigationspunkt->Spielerstart)
+findest. Wenn Du den Level ausführst, startest Du an diesem Punkt.
+
+Wenn Du das Spiel ausführst, kannst Du die Tabulatortaste oder das Apostroph (')
+drücken, wenn Du Konsolenbefehle eingeben willst. Wenn Du STAT FPS
+eintippst, wird die Bildlaufrate/Polygonzahl eingeblendet. Die Richt-Polygonzahlen
+bei Unreal lauten wie folgt:
+
+   * 200: Kein Kampf, wenige oder keine Aktoren oder Monster.
+   * 130 oder weniger: Kampf mit einem Monster.
+   * 100: Kampf mit 2-3 Monstern.
+   * 20-50: Kampf mit 4 oder weniger Monstern.
+
+--------------------------------
+Überschneiden und Trennen
+--------------------------------
+
+Als zwei der leistungsfähigsten Funktionen des Editors ermöglichen
+Dir das Überschneiden oder Trennen, jede beliebige in Deinem Level
+existierende Form oder jeden leeren Raum aufzunehmen, um daraus
+ein ganz neues Arbeitswerkzeug zu bauen. Versuche einmal folgendes:
+Baue eine Form in Deinem Level, z. B. einen Stuhl. Baue dann einen Würfel,
+der den Stuhl umschließt. Wähle dann in der oberen Menüleiste BRUSH
+(Werkzeug) -> INTERSECT (Überschneiden). Dann werden alle massiven
+Formen, die innerhalb Deines Würfels liegen, aufgenommen und als eigenes
+Werkzeug zusammengefaßt. Du kannst dieses neue Werkzeug nun durch die
+Welt bewegen und alles, was Du willst, hinzufügen oder entfernen.
+Du kannst jederzeit mit jeder beliebigen Form das Überschneiden/Trennen
+ausführen!
+
+-----------------------
+Bewegliche Werkzeuge herstellen
+-----------------------
+
+Ein bewegliches Werkzeug, oder Mover, ist ein Element der Weltgeometrie,
+das sich in vorgegebenen Schlüsselbildern einer Filmsequenz bewegt. Typische
+Mover sind z. B. eine Tür, eine Zugbrücke oder eine auseinanderbrechende Planke.
+
+Deine Mover stellst Du am besten auf folgende Weise her:
+1.  Lege irgendwo neben Deinem Level eine große Bau-Box an.
+2.  Bau Deine Tür, Deinen Lift oder was auch immer in dieser Box.
+3.  Wähle für das, was Du gebaut hast, INTERSECT (Überschneiden) aus.
+4.  Bewege Dein neues rotes Arbeitswerkzeug in Deinen Level, und
+    plaziere es dort, wo sich der Mover befinden soll.
+5.  Klicke auf der rechten Seite der Symbolleiste auf die sechste
+    Schaltfläche von oben, die aussieht wie ein Würfel, von dem graue
+    Bögen ausgehen.
+6.  Damit ist Dein Mover eingefügt. Jetzt mußt Du dafür die Mover-
+    Schlüsselbilder festlegen. Klicke mit der rechten Maustaste auf den
+    Mover, und wähle KEYFRAME -> 1. Bewege Deinen Mover auf
+    Keyframe 1, klicke wiederum mit der rechten Maustaste auf ihn,
+    und wähle KEYFRAME-> 0, um ihn zurückzusetzen. (HINWEIS:
+    Dein Mover erscheint als lilafarbenes Werkzeug unter Deinem roten
+    Arbeitswerkzeug. Achte darauf, daß Dein rotes Werkzeug nicht im
+    Weg ist.)
+7.  Dein Mover befindet sich jetzt an seinem Platz. In den Eigenschaften des
+    Movers, unter OBJECT (Objekt), kannst Du festlegen, was die Bewegung
+    dieses Movers auslöst. Die Standardeinstellung ist BUMP OPEN TIMED,
+    was bedeutet, daß der Mover sich öffnet, wenn der Spieler dagegenstößt.
+    Hier gibt es natürlich noch andere Möglichkeiten; spiel einfach mal ein
+    bißchen herum!
+
+Die verschiedenen Aktivierungstypen für Mover:
+
+   * Stand Open Timed: Der Mover wird aktiviert und wechselt von Schlüsselbild
+     Null zu Eins, wenn der Spieler auf ihm steht. Wähle diese Einstellung
+     für Lifte aus.
+
+   * Bump Button: Also, ich verwende das selten, kümmert Euch am besten
+     gar nicht drum.
+
+   * Bump Open Timed: Wenn der Spieler an diesen Mover stößt,
+     bleibt der Mover so lange offen, wie unter MOVER ("stay
+     open time", Öffnungszeit) festgelegt ist. HINWEIS: MOVE TIME
+     (Bewegungszeit) ist die Zeit, die der Mover braucht, um von einem
+     Schlüsselbild zum nächsten zu wechseln.
+
+Du kannst einen Mover auch durch einen Auslöser aktivieren. Ein Auslöser
+ist ein unsichtbarer Aktor, den Du in die Welt einfügen und mit dem
+Du nahezu alles aktivieren kannst, in diesem Fall einen Mover. Auslöser findest
+Du im Klassen-Browser unter TRIGGERS-TRIGGER (Auslöser). Füge einen
+Auslöser ein. In den Eigenschaften des Auslösers gibt es unter EVENTS (Ereignisse)
+zwei Bereiche, über die Du Bescheid wissen solltest: EVENT (Ereignis) und TAG
+(Kennzeichen). Bei EVENT wird der Name des Ereignisses angegeben, das dieser
+Auslöser verursacht, wenn er berührt/beschossen/aktiviert wird. Dies entspricht dem
+TAG der Aktion, die passieren soll. Beispielsweise aktiviert ein Auslöser mit dem
+Ereignis "Fred" den Mover, der das Kennzeichen "Fred" hat. Mit diesem System kannst Du
+Ereignisse hintereinanderschalten: Du kannst "George" als Ereignis für den Mover
+"Fred" festlegen und einen anderen Mover mit dem Kennzeichen "George" versehen. Dieser
+Mover wird ausgelöst, wenn der erste fertig ist (vorausgesetzt, er ist auf "Trigger
+Open Timed" eingestellt, was uns zu den anderen Aktivierungstypen bringt.)
+
+   * Trigger Pound: Wenn Du den Auslöser berührst, dessen EVENT (Ereignis)
+     mit dem TAG (Kennzeichen) dieses Movers übereinstimmt, schlägt der Auslöser
+     zwischen seinen Schlüsselbildern hin und her. Dies ist nützlich bei Rätseln
+     oder Maschinen.
+
+   * Trigger Control: Wenn der Spieler den Auslöser für diesen
+     Mover berührt, öffnet sich der Mover und bleibt so lange offen,
+     wie der Spieler sich in der Nähe des Auslösers aufhält. Sobald
+     er den Auslöser verläßt, schließt sich der Mover wieder. Dies
+     eignet sich besonders für Türen.
+
+   * Trigger Toggle: Wenn der Auslöser berührt wird, öffnet er den
+     Mover, mit dem er über das Kennzeichen verbunden ist. Wenn der Auslöser
+     nochmals berührt wird, schließt sich der Mover. Dieser Auslöser
+     schaltet zwischen den beiden Zuständen "offen" und "geschlossen"
+     hin und her.
+
+   * Trigger Open Timed: Wenn der Auslöser berührt wird, öffnet
+     sich der Mover, bleibt für die angegebene Zeit offen und schließt
+     sich dann wieder.
+
+Du kannst auch einen Mover als Auslöser für einen anderen Mover benutzen.
+Baue einen Schalter, dessen "Object-State" (Objekt-Status) BUMP OPEN
+TIMED lautet, und verbinde dieses Ereignis mit dem Kennzeichen eines Tür-Movers.
+Setze den Objekt-Status auf TRIGGER OPEN TIMED, und die Tür öffnet sich,
+wenn der Schalter berührt wird (vorausgesetzt, Du hast die Schlüsselbilder festgelegt usw.).
+
+Eine nützliche Einstellung in den Eigenschaften der Mover ist BTRIGGERONCEONLY.
+Wenn sie auf "True" (Ja) gesetzt ist, öffnet sich der Mover und schließt sich überhaupt
+nicht mehr. Dies ist nützlich für einmalige Türen/Rätsel/Fallen.
+
+-----------------
+Es werde Feuer
+-----------------
+
+Wie Du wahrscheinlich schon gemerkt hast, sind die meisten in Unreal erzeugten
+Fackeln und Feuereffekte bloß einfache Polygon-Sheets, die sich sternförmig
+schneiden, um so die Illusion von Volumen zu erzeugen.
+
+Um Deine eigene Flamme zu schaffen, gehst Du wie folgt vor:
+
+1.  Lade ein Feuer-UTX (für den Anfang machen die vorgefertigten,
+    z. B. die Serie GREATFIRE, die Sache einfacher), und wähle eine
+    Feuertextur aus.
+
+2.  Du mußt Dein Sheet-Builder-Werkzeug in der Welt bauen. Dazu dient
+    die unterste rechte Schaltfläche (eine graue Raute) auf
+    der Symbolleiste. Klicke mit der rechten Maustaste auf diese Schaltfläche,
+    und verändere "Size" (Größe) und/oder "Orientation" (Ausrichtung). Du wirst
+    wahrscheinlich die X- oder Y-Achse brauchen; versuche es mal mit der
+    Standardgröße 128x128.
+
+3.  Klicke als nächstes in der Symbolleiste auf die fünfte Schaltfläche von oben
+    (ein grünes Quadrat). Es erscheint ein Fenster, die Dialogbox
+    ADD A SPECIAL BRUSH (Spezialwerkzeug hinzufügen). Markiere 2 SIDED
+    (2-seitig; damit das Sheet von vorne und hinten zu sehen ist), TRANSPARENT
+    (damit Du durch das Feuer hindurchsehen kannst) und NON SOLID (nicht massiv;
+    solche Werkzeuge schneiden BSP nicht und fügen Deiner Welt Polygone hinzu.)
+
+4.  Wähle jetzt in der Dialogbox ADD SPECIAL (Spezialwerkzeug hinzufügen).
+    Dein Sheet erscheint nun in der Welt.
+
+5.  Drehe Dein Sheet-Werkzeug in der "Overhead"-Ansicht um etwa 45 Grad,
+    und wiederhole dies, bis ein sternförmiges Muster entsteht.
+
+6.  Klicke mit der rechten Maustaste auf die Feuer-Texturen, und markiere
+    UNLIT (ohne Licht).
+
+7.  Jetzt kann's losgehen! Füge eine Grundform unter Deinem Feuer
+    hinzu, dann noch eine Lichtquelle, führe einen Neuaufbau durch, und
+    schon hast Du eine Fackel in Deiner Welt.
+
+------
+Tricks
+------
+
+Drücke die Tabulatortaste, und tippe den Befehl ein,
+um den Trick auszuführen.
+
+* Allammo (Alle Munition): Dadurch erhältst Du eine Munition von 999 für alle Deine Maschinengewehre.
+* Fly (Fliegen): Damit kannst Du herumfliegen.
+* Walk (Gehen): Hiermit kannst Du das Fliegen oder GHOSTING (Geistern) beenden.
+* Ghost (Geist): Damit kannst Du problemlos durch Wände gehen.
+* PlayersOnly (Nur Spieler): Hält die Zeit an. Gib dies nochmal ein, um die Zeit weiterlaufen zu lassen.
+* GOD (Gott): Gott-Modus.
+* OPEN MAPNAME (Kartennamen öffnen): Springt zu der Landkarte, deren Namen Du
+   eingibst, z. B. OPEN DIG.
+* SUMMON itemname (Objektnamen aufrufen): Damit kannst Du ein beliebiges Objekt
+   zur Welt hinzufügen.
+  Einige Beispiele, was Du hinzufügen könntest:
+  - SUMMON EIGHTBALL (Kanone)
+  - SUMMON FLAKCANNON (Flak-Kanone)
+  - SUMMON NALI (Nali-Fruchtsamen)
+  - SUMMON SKAARJWARRIOR (Skaarj-Krieger)
+* BEHINDVIEW 1 (Sicht von hinten): Versetzt Dich in eine Sicht im Tomb Raider-Stil.
+   BEHINDVIEW 0 macht dies wieder rückgängig. (Du solltest unbedingt die Schutzgürtel-Umgebung
+   auf diese Art darstellen, und die coolen Filmsequenzen, und das Schwimmen...)
+* FLUSH (Spülen): Wenn die Grafikdarstellung auf Wandtexturen oder Kreaturen
+   anfängt zu spinnen, gib diesen Befehl ein, und Du bist das Problem los.
+
+--------------------
+Weitere Infos zum Editor
+--------------------
+
+Besuche die Unreal Homepage im World Wide Web, http://www.unreal.com/, wo
+Du die Online-Dokumentation zum UnrealEd findest.
+
+UnrealEd ist ein Speicherfresser -- es braucht mehr als 100 MB
+(reellen und virtuellen) Speicher, wenn man einen typischen Level
+bearbeitet, und bis zu 200 MB, wenn man die detailliertesten Level
+aufbaut.
+
+------------
+UnrealScript
+------------
+
+UnrealEd enthält einen vollständigen Compiler und eine
+Entwicklungsumgebung für UnrealScript, die eingebaute
+Programmiersprache von Unreal. Mit UnrealEd kannst Du
+Skripts ansehen, bearbeiten, kompilieren und speichern.
+
+UnrealScript ist eine Java-ähnliche, objektorientierte Sprache.
+Es ist die bei weitem umfangreichste und fortgeschrittenste
+Programmiersprache, die je in ein Spiel eingebaut wurde.
+
+Um Skripts anzusehen, rufe den Klassen-Browser in UnrealEd
+auf (wähle dazu die Registerkarte "Classes" rechts auf dem
+Bildschirm). Dort siehst Du die Klassenhierarchie von Unreal.
+Am unteren Ende dieser Hierarchie steht "Actor" (Aktor), die Klasse,
+die alle Objekte umfaßt, die innerhalb eines Levels existieren, sich
+bewegen und miteinander agieren können. Es gibt noch viele
+weitere Klassen, z. B.:
+
+   * Inventory (Inventar): Alle Objekte, die ein Spieler tragen kann.
+   * Weapon (Waffe): Alle Waffen, die die Spieler einsetzen können.
+   * Pawn (Figur): Alle Monster und Spieler.
+   * ScriptedPawn (Figur mit Skript): Alle komplizierteren, KI-gesteuerten Monster.
+   * PlayerPawn (Spielerfigur): Alle Spieler.
+   * Projectile (Projektil): Alle Waffenprojektile.
+   * Decoration (Dekoration): Objekte, die nur zur Dekoration dienen.
+
+Die vollständige Dokumentation zu UnrealScript ist auf der Website
+von Unreal unter http://www.unreal.com/ zu finden.
+
+======================================================================
+                            Credits
+======================================================================
+
+----------------
+Development Team
+----------------
+
+Game Design: James Schmalz & Cliff Bleszinski.
+Level Designers: Cliff Bleszinski, T Elliot Cannon, Cedric Fiorentino,
+   Pancho Eekels, Jeremy War, Shane Caudle.
+Animator: Dave Carter.
+Artists: James Schmalz, Mike Leathem, Artur Bialas.
+Programmers: Tim Sweeney, Steven Polge, Erik de Neve,
+   Carlo Volgelsang, James Schmalz, Nick Michon.
+Musicians: Alexander Brandon, Michiel van de Bos.
+Sound Effects: Dave Ewing.
+Epic Biz: Jay Wilbur, Mark Rein, Nigel Kent, and Craig Lafferty.
+
+------------------
+For GT Interactive
+------------------
+
+Producer: Jason Schreiber
+Executive Producer: Greg Williams
+Lead Tester/Associate Producer: Joel Maximillion Breton
+Product Manager: Ken Gold
+Assistant Product Manager: Phil Tucker
+Public Relations Manager: Alan Lewis
+Director of Creative Services: Leslie Mills
+Creative Director: Vic Merrit
+Artists: Michael Marrs, Jill Pomper, Lesley Zinn, and Jen Scheerer
+Production Coordinator: Liz Fierro
+Box Design: Vic Merrit and Leslie Mills
+
+--------------
+Special Thanks
+--------------
+
+Chad Faragher, Nick Oddson, Chris Hargett, DJ Carroll, 
+Diane Schmalz, Shannon Newans, Evelyn Eekels, Lani Minella,
+Gina Hedges, Ryan Schwartz, Mark Visser, Richard Young,
+Mike Forge, Eric Reuter, and the guys at UnrealNation 
+and Unreal.org.
+
+-------
+Testing
+-------
+
+Lead Tester: Mike Barker
+Second: Jim Tricario
+Second: Dan McJilton
+
+Testers: Mike Barker, Jim Tricario, Dan McJilton,
+Dave Munro, Andre Cerny, Cormac Russell, Jesse Smith,
+Clint McCaul, Fran Katsimpiris, Corey Allen, Ed Piper,
+Barry Gilchrist, Adam Coleman, Chris Carr, Chris McGuirk,
+Randy Denmyer, Kevin Keith, Thomas Watkins, Dave Afdahl,
+Andy Mazurek, Matt Kutrik, Troy Kupich, Jake Grimshaw,
+Mark Leary, Matt Miller, Ian Giffen, Justin Dull,
+Calvin Grove, Ruben Brown, Mike Prendergast, Geoff Gessner,
+Steven Rhodes, Rocco Rinaldi, Jim Biltz.

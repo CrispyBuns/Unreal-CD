@@ -1,0 +1,102 @@
+[Public]
+Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console)
+Preferences=(Caption="Erweitert",Parent="Erweiterte Optionen")
+Preferences=(Caption="Game-Engine-Einstellungen",Parent="Erweitert",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="Key Aliases",Parent="Erweitert",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="Raw Key Bindings",Parent="Erweitert",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Treiber",Parent="Erweiterte Optionen",Class=Engine.Engine,Immediate=False,Category=Drivers)
+
+[Errors]
+NetOpen=Fehler beim Öffnen der Datei
+NetWrite=Fehler beim Schreiben der Datei
+NetRefused=Server lehnte Senden von '%s' ab
+NetClose=Fehler beim Schließen der Datei
+NetSize=Fehlerhafte Dateigröße
+NetMove=Fehler beim Verschieben der Datei
+NetInvalid=Bekam fehlerhafte Dateianforderung
+NoDownload=Paket '%s' kann nicht heruntergeladen werden
+DownloadFailed=Herunterladen von Paket '%s' fehlgeschlagen: %s
+RequestDenied=Server lehnte angeforderten Level ab
+ConnectionFailed=Verbindung fehlgeschlagen
+ChAllocate=Kanal konnte nicht allokiert werden
+NetAlready=Schon im Netzwerk
+NetListen=Antwort fehlgeschlagen: Kein Link-Kontext verfügbar
+LoadEntry=Kann Eintrag nicht laden: %s
+InvalidUrl=Fehlerhafter URL: %s
+FailedBrowse=Fehler beim Betreten von %s: %s
+Listen=Antwort fehlgeschlagen: %s
+AbortToEntry=Fehlgeschlagen; kehre zum Eingang zurück
+ServerOpen=Server können Netzwerk-URLs nicht öffnen
+ServerListen=Dedizierter Server antwortet nicht: %s
+Pending=Angeforderte Verbindung zu '%s' fehlgeschlagen; %s
+
+[Progress]
+NetReceiving=Empfange '%s': %i/%i
+NetReceiveOk='%s' erfolgreich empfangen
+NetSend=Sende '%s'
+NetSending=Sende '%s': %i/%i
+Connecting=Verbinde...
+Listening=Warte auf Clients...
+Loading=Lade
+Saving=Speichere
+Paused=Angehalten durch %s
+ReceiveFile=Empfange '%s' (F10 für Abbruch)
+ReceiveSize=Größe %iK, Erledigt %3.1f%%
+ConnectingText=Verbinde (F10 für Abbruch):
+ConnectingURL=unreal://%s/%s
+
+[Console]
+ClassCaption="Standard-Unreal-Konsole"
+
+[General]
+Upgrade=Besuche diesen Server, Du benötigst die neuste Version von Epic's Website:
+UpgradeURL=http://www.unreal.com/upgrade
+UpgradeQuestion=Möchtest Du jetzt den Browser starten und das Update herunterladen?
+
+[Menu]
+HelpMessage=
+MenuList=
+LeftString=Links
+RightString=Rechts
+CenterString=Zentrieren
+EnabledString=Aktiviert
+DisabledString=Deaktiviert
+
+[Inventory]
+PickupMessage=Gegenstand aufgenommen
+M_Activated=" aktiviert"
+M_Selected=" ausgewählt"
+M_Deactivated=" deaktiviert"
+
+[GameInfo]
+SwitchLevelMessage=Wechsele Level 
+DefaultPlayerName=Spieler
+LeftMessage=" hat das Spiel verlassen."
+FailedSpawnMessage=Spieler-Aktor konnte nicht erzeugt werden
+FailedPlaceMessage=Startpunkt wurde nicht gefunden (Level benötigt Aktor 'PlayerStart')
+NameChangedMessage=Name geändert in... 
+EnteredMessage=" betritt das Spiel."
+
+[LevelInfo]
+Title=Ohne Titel
+
+[Weapon]
+MessageNoAmmo=" hat keine Munition."
+PickupMessage=Waffe aufgenommen
+
+[Counter]
+CountMessage=Nur noch %i übrig...
+CompleteMessage=Geschafft!
+
+[Ammo]
+PickupMessage=Munition aufgenommen
+
+[Pickup]
+ExpireMessage=
+
+[SpecialEvent]
+DamageString=
+
+[DamageType]
+Name=eliminiert
+AltName=eliminiert

@@ -1,0 +1,28 @@
+[Errors]
+Critical=Kritischer Fehler
+FailedConfigLoad=%s (Ladefehler)
+
+[General]
+BrowseButton=...
+UseButton=Benutzen
+ClearButton=Löschen
+OkButton=Ok
+CancelButton=Abbrechen
+DefaultsButton=Zurücksetzen
+LanguagePrompt=Srache:
+LanguageWindow=Sprachauswahl
+LogWindow=%s Log-Fenster
+PropNone=Nichts gewählt
+PropSingle=%s Eigenschaften
+PropMulti=%s Eigenschaften (%i gewählt)
+InsertCdText=Lege bitte die Unreal-CD-ROM in Dein Laufwerk und klicke auf OK, um fortzufahren, oder auf Abbrechen, um das Menü zu verlassen.
+InsertCdTitle=CD muß bei Programmstart eingelegt sein
+AdvancedOptionsTitle=Erweiterte Optionen
+Low=Niedrig
+High=Hoch
+
+[FirstRun]
+Caption=Ausgangskonfiguration
+LowMemory=Unreal hat entdeckt, daß Du %i MB freien Speicher hast. Um die Systemleistung zu erhöhen, wurden die Einstellungen "Texturen mit wenigen Details" und "Niedrige Soundqualität" gewählt. Du kannst diese Einstellungen im Menü "Performance Settings" ändern.
+NonMMX=Unreal hat entdeckt, daß Du keinen MMX-PC verwendest. Daher wurde die Soundwiedergabe auf die geringste CPU-Belastung gestellt. Du kannst dies im Menü "Erweiterte Optionen / Sound" ändern.
+Starting=Unreal wird zum ersten Mal gestartet. Sollten Probleme auftauchen, lese bitte das Kapitel Troubleshooting im Dokument Release Notes im "Start-Menü".
